@@ -22,4 +22,10 @@ public class BookingController {
     public List<Ticket> getTickets(){
         return  ticketList;
     }
+
+
+    @DeleteMapping (path="/tickets/{ticketId}")
+    public String deleteTicket(@PathVariable String ticketId){
+        return ticketId  + "  removed successfuly";
+    }
 }
