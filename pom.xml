@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>ticket-service</finalName>
 	</build>
 	<repositories>
 		<repository>
